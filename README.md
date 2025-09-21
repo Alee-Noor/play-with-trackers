@@ -33,6 +33,19 @@ All dependencies are listed in `requirements.txt`.
 
 ---
 
+
+## Customization
+Modify the parameters at the bottom of the script to customize the behavior:
+- VIDEO_SOURCE = "v_test5.mp4"        # 0 for webcam, or path to video file
+- MOT_METHOD = 'bytetrack'            # 'bytetrack' or 'deepsort'
+- SOT_TRACKER = 'csrt'                # 'csrt', 'kcf', or 'mosse'
+- YOLO_MODEL = 'yolov8n.pt'           # YOLO model file
+- TARGET_CLASSES = [2,3,4,5,6,7]      # COCO dataset class IDs to track
+- CONFIDENCE_THRESHOLD = 0.45         # Detection confidence threshold
+- SAVE_OUTPUT = True                  # Enable/disable video recording
+- OUTPUT_PATH = "tracked_output.mp4"  # Output video path
+
+
 ## ⚙️ Installation
 
 1. Clone this repository:
