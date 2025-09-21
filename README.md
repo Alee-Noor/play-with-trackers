@@ -62,15 +62,17 @@ Modify the parameters at the bottom of the script to customize the behavior:
 
 2. Create a virtual environment (recommended):
    
-   python -m venv venv
-   Linux/Mac:
-   source venv/bin/activate
+   - python -m venv venv
+   # Linux/Mac:
+   - source venv/bin/activate
    # Windows  
-   venv\Scripts\activate
+   - venv\Scripts\activate
 
 3.Install dependencies:
 
   - pip install -r requirements.txt
+
+4. Just Run the main file code: main32.py
 
 
 
