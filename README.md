@@ -68,7 +68,7 @@ Modify the parameters at the bottom of the script to customize the behavior:
    # Windows  
    - venv\Scripts\activate
 
-3.Install dependencies:
+3. Install dependencies:
 
   - pip install -r requirements.txt
 
