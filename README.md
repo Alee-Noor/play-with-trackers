@@ -46,10 +46,31 @@ Modify the parameters at the bottom of the script to customize the behavior:
 - OUTPUT_PATH = "tracked_output.mp4"  # Output video path
 
 
+## 🎮 Controls
+- Click on object → Switch to Single Object Tracking mode
+- ESC key → Return to MOT mode (from SOT)
+- S key → Save current frame as an image
+- Q key → Quit
+
+
 ## ⚙️ Installation
 
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/motion-tracking-app.git
    cd motion-tracking-app
+
+2. Create a virtual environment (recommended):
+   
+   python -m venv venv
+   Linux/Mac:
+   source venv/bin/activate
+   # Windows  
+   venv\Scripts\activate
+
+3.Install dependencies:
+
+  - pip install -r requirements.txt
+
+
 
