@@ -57,7 +57,7 @@ Modify the parameters at the bottom of the script to customize the behavior:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/motion-tracking-app.git
+   git clone https://github.com/Alee-Noor/play-with-trackers.git
    cd motion-tracking-app
 
 2. Create a virtual environment (recommended):
